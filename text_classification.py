@@ -29,6 +29,9 @@ def getSentimentVector(twitter_frame):
     pred = model.predict(tf_test)
     return pred
 
+text = input("enter the text")
+text_vector=[[]]
+text_vetor.append([text])
 
-
-    
+output_vector=getSentimetnVector(text_vector)
+print(output_vector)
